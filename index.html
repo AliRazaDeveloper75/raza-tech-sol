@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raza Tech Sol - Professional Tech Services</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header & Navigation -->
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">
+            <!-- <img class="logo-img" src="assets/logo.png" alt="Raza Tech Sol Logo"> -->
+            <span>
+              <a href="#home">
+                <img
+                  class="logo-img"
+                  src="assets/logo.png"
+                  alt="Raza Tech Sol Logo"
+                />
+              </a>
+            </span>
+          </div>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <button class="theme-toggle" id="theme-toggle">
+            <i class="fas fa-moon"></i>
+          </button>
+          <a href="#contact" class="btn">Get Started</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Transform Your Digital <span>Presence</span></h1>
+            <p>
+              Raza Tech Sol provides cutting-edge technology solutions to help
+              businesses thrive in the digital landscape. From web development
+              to digital marketing, we've got you covered.
+            </p>
+            <div class="hero-buttons">
+              <a href="#services" class="btn">Our Services</a>
+              <a href="#contact" class="btn btn-secondary">Get Quote</a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img
+              src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+              alt="Tech Solutions"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-title">
+          <h2>Our Services</h2>
+          <p>
+            We offer a comprehensive range of digital services to help your
+            business grow and succeed online.
+          </p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3>Web Development</h3>
+            <p>
+              Custom websites and web applications built with the latest
+              technologies to ensure performance and scalability.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fab fa-wordpress"></i>
+            </div>
+            <h3>WordPress Development</h3>
+            <p>
+              Professional WordPress websites, themes, and plugins tailored to
+              your specific business needs.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+            <h3>E-commerce Solutions</h3>
+            <p>
+              Complete online store development with secure payment gateways and
+              inventory management systems.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-robot"></i>
+            </div>
+            <h3>Social Media Chat Bots</h3>
+            <p>
+              AI-powered chatbots for Facebook, WhatsApp, and other platforms to
+              automate customer service.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-video"></i>
+            </div>
+            <h3>Video Editing</h3>
+            <p>
+              Professional video editing services for promotional content,
+              social media, and corporate presentations.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <h3>Graphic Designing</h3>
+            <p>
+              Creative graphic design solutions including logos, brochures,
+              banners, and brand identity packages.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-hashtag"></i>
+            </div>
+            <h3>Social Media Marketing</h3>
+            <p>
+              Strategic social media campaigns to increase brand awareness and
+              engagement across platforms.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-ad"></i>
+            </div>
+            <h3>Meta/Google Ads</h3>
+            <p>
+              Targeted advertising campaigns on Google, Facebook, and Instagram
+              to drive conversions and sales.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-search"></i>
+            </div>
+            <h3>SEO Services</h3>
+            <p>
+              Search engine optimization to improve your website's visibility
+              and ranking on search results.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="section-title">
+          <h2>Our Portfolio</h2>
+          <p>
+            Check out some of our recent work that showcases our skills and
+            expertise.
+          </p>
+        </div>
+        <div class="portfolio-filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web">Web Development</button>
+          <button class="filter-btn" data-filter="design">Design</button>
+          <button class="filter-btn" data-filter="marketing">Marketing</button>
+        </div>
+        <div class="portfolio-grid">
+          <div class="portfolio-item" data-category="web">
+            <img
+              src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+              alt="E-commerce Website"
+            />
+            <div class="portfolio-overlay">
+              <h3>E-commerce Store</h3>
+              <p>Web Development</p>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="design">
+            <img
+              src="https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+              alt="Brand Identity"
+            />
+            <div class="portfolio-overlay">
+              <h3>Brand Identity</h3>
+              <p>Graphic Design</p>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="marketing">
+            <img
+              src="https://images.unsplash.com/photo-1432888622747-4eb9a8f5a07a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+              alt="Social Media Campaign"
+            />
+            <div class="portfolio-overlay">
+              <h3>Social Media Campaign</h3>
+              <p>Digital Marketing</p>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="web">
+            <img
+              src="https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+              alt="Blog Platform"
+            />
+            <div class="portfolio-overlay">
+              <h3>Blog Platform</h3>
+              <p>WordPress Development</p>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="design">
+            <img
+              src="https://images.unsplash.com/photo-1545235617-9465d2a55698?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+              alt="UI/UX Design"
+            />
+            <div class="portfolio-overlay">
+              <h3>Mobile App UI</h3>
+              <p>UI/UX Design</p>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="marketing">
+            <img
+              src="https://images.unsplash.com/photo-1533750349088-cd871a92f312?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+              alt="SEO Optimization"
+            />
+            <div class="portfolio-overlay">
+              <h3>SEO Optimization</h3>
+              <p>Search Engine Optimization</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <div class="section-title">
+          <h2>Featured Projects</h2>
+          <p>Take a closer look at some of our most successful projects.</p>
+        </div>
+        <div class="projects-slider">
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+                alt="E-commerce Platform"
+              />
+            </div>
+            <div class="project-content">
+              <h3>E-commerce Platform</h3>
+              <p>
+                Complete online store with payment integration and inventory
+                management.
+              </p>
+              <a href="#" class="btn">View Project</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="https://images.unsplash.com/photo-1542744094-3a31f272c490?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+                alt="Corporate Website"
+              />
+            </div>
+            <div class="project-content">
+              <h3>Corporate Website</h3>
+              <p>
+                Modern and responsive website for a leading financial services
+                company.
+              </p>
+              <a href="#" class="btn">View Project</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+                alt="Mobile App"
+              />
+            </div>
+            <div class="project-content">
+              <h3>Fitness Mobile App</h3>
+              <p>
+                iOS and Android application for tracking workouts and nutrition.
+              </p>
+              <a href="#" class="btn">View Project</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+                alt="Brand Identity"
+              />
+            </div>
+            <div class="project-content">
+              <h3>Brand Identity</h3>
+              <p>
+                Complete branding package for a startup including logo and
+                guidelines.
+              </p>
+              <a href="#" class="btn">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-title">
+          <h2>Contact Us</h2>
+          <p>
+            Get in touch with us for a free consultation and project estimate.
+          </p>
+        </div>
+        <div class="contact-container">
+          <div class="contact-info">
+            <h2>Let's Talk About Your Project</h2>
+            <p>
+              We're ready to help you bring your ideas to life. Contact us today
+              and let's discuss how we can work together.
+            </p>
+            <ul class="contact-details">
+              <li>
+                <i class="fas fa-map-marker-alt"></i>
+                <span>123 Tech Street, Digital City</span>
+              </li>
+              <li>
+                <i class="fas fa-phone"></i>
+                <span>+1 (234) 567-8900</span>
+              </li>
+              <li>
+                <i class="fas fa-envelope"></i>
+                <span>info@razatechsol.com</span>
+              </li>
+              <li>
+                <i class="fas fa-clock"></i>
+                <span>Mon-Fri: 9AM - 6PM</span>
+              </li>
+            </ul>
+          </div>
+          <div class="contact-form">
+            <h3>Send Us a Message</h3>
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" class="form-control" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" class="form-control" required />
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" class="form-control" required />
+              </div>
+              <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" class="form-control" required></textarea>
+              </div>
+              <button type="submit" class="btn" style="width: 100%">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <h3>Raza Tech Sol</h3>
+            <p>
+              Providing cutting-edge technology solutions to help businesses
+              thrive in the digital landscape.
+            </p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+          <div class="footer-column">
+            <h3>Services</h3>
+            <ul class="footer-links">
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">WordPress Development</a></li>
+              <li><a href="#">E-commerce Solutions</a></li>
+              <li><a href="#">Social Media Chat Bots</a></li>
+              <li><a href="#">Video Editing</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Contact Us</h3>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> 123 Tech Street, Digital
+              City
+            </p>
+            <p><i class="fas fa-phone"></i> +1 (234) 567-8900</p>
+            <p><i class="fas fa-envelope"></i> info@razatechsol.com</p>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2023 Raza Tech Sol. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
