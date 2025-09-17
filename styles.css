@@ -7,9 +7,9 @@
 }
 
 :root {
-  --primary: #070086;
+  --primary: #1e105a;
   --secondary: #ff85a2;
-  --accent: #0d757e;
+  --accent: #575555;
   --dark: #e2e8f0;
   --light: #2d3748;
   --gray: #718096;
@@ -151,7 +151,7 @@ nav {
 
 /* Hero Section */
 .hero {
-  padding: 150px 0 100px;
+  padding: 150px 100px;
   background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
   color: white;
   position: relative;
@@ -488,7 +488,7 @@ nav {
 }
 
 .contact-form h3 {
-  color: var(--dark);
+  color:black;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -499,7 +499,7 @@ nav {
 
 .form-group label {
   display: block;
-  color: var(--dark);
+  color: black;
   margin-bottom: 8px;
   font-weight: 500;
 }
@@ -721,7 +721,7 @@ a{
   }
 
   .portfolio-filters {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 }
